@@ -45,3 +45,6 @@ def play():
                 print("You missed! Your attempt was LOWER than the secret number.")
             lost_points = abs(secret_number - user_attempt)
             score = score - lost_points
+
+if(__name__ == "__main__"):#It enables to execute the file from the command line
+    play()
